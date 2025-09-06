@@ -1,0 +1,24 @@
+export default function Home() {
+return (
+<main>
+<section style={{padding:'80px 0 120px'}}>
+<div className="container" style={{textAlign:'center',maxWidth:800,margin:'0 auto'}}>
+<h1 style={{
+fontSize:'64px',fontWeight:900,lineHeight:1.1,marginBottom:24,
+background:'linear-gradient(135deg,#fff 0%,#a78bfa 100%)',
+WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'
+}}>
+AI Music Studio for Culture Creators
+</h1>
+<p style={{fontSize:22,opacity:.9,marginBottom:40,color:'#e2e8f0'}}>
+Generate Afrobeats, Drill, and Lofi tracks in seconds. Built for creators, influencers, and indie labels.
+</p>
+<div style={{display:'flex',gap:16,justifyContent:'center',flexWrap:'wrap'}}>
+<a href="/pricing" className="btn btn-primary" style={{fontSize:18,padding:'16px 32px'}}>Start Creating →</a>
+<a href="/pricing" className="btn btn-outline" style={{fontSize:18,padding:'16px 32px'}}>View Pricing</a>
+</div>
+</div>
+</section>
+</main>
+);
+}
